@@ -1,0 +1,17 @@
+.header {
+    padding-block: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.top-nav ul {
+    display: flex;
+    gap: 1.2rem;
+}

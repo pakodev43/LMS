@@ -1,0 +1,30 @@
+.hero {
+
+    @media (min-width: 57.625rem) {
+        min-height: 70vh;
+        padding-inline: 3rem;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        align-items: center;
+    }
+}
+
+.title-suffix {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.main-btn-div {
+    margin-block-start: 3rem;
+}
+
+.main-btn {
+    padding: .95rem 2rem;
+    border: 1.5px solid var(--clr-tertiary);
+    text-transform: uppercase;
+}
+
+.hero-img {
+    width: 100%;
+}
