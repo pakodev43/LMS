@@ -1,13 +1,27 @@
 .hero {
+    margin-block-start: 3rem;
 
     @media (min-width: 57.625rem) {
         min-height: 70vh;
+        margin-block-start: unset;
         padding-inline: 3rem;
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 1rem;
         align-items: center;
     }
+}
+
+.text-section {
+    text-align: center;
+
+    @media (min-width: 57.625rem) {
+        text-align: unset;
+    }
+}
+
+.title {
+    color: var(--clr-tertiary);
 }
 
 .title-suffix {
@@ -21,8 +35,25 @@
 
 .main-btn {
     padding: .95rem 2rem;
-    border: 1.5px solid var(--clr-tertiary);
+    /* border: 1.5px solid var(--clr-tertiary); */
     text-transform: uppercase;
+    color: var(--clr-primary);
+    background-color: var(--clr-tertiary);
+    border-radius: .5rem;
+    
+    @media (min-width: 57.625rem) {
+        padding: 1.2rem 2.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+.img-section {
+    width: 75%;
+    margin-inline: auto;
+    
+    @media (min-width: 57.625rem) {
+        width: unset;
+    }
 }
 
 .hero-img {

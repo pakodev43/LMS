@@ -5,8 +5,12 @@ const Header = () => {
     return (
         <header className="header">
             <div className="logo-div">
-                <p className="logo-text">Zahid Accademy</p>
+                <p className="logo-text">Pakodev Academy</p>
             </div>
+
+            {/* <button className="nav-toggle-btn opened" onClick={classList.toggle('opened')}></button> */}
+            <button className="nav-toggle-btn"></button>
+            {/* <button className="nav-toggle-btn opened"></button> */}
 
             <nav className="top-nav">
                 <ul>
@@ -19,5 +23,12 @@ const Header = () => {
         </header>
     )
 }
+
+// var nav = document.getElementById('nav')
+// var navToggle = document.getElementById('navToggle')
+
+// navToggle.onclick = () => {
+//     nav.classList.toggle('opened')
+// }
 
 export default Header

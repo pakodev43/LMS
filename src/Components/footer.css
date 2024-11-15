@@ -1,0 +1,8 @@
+.footer {
+    margin-block: 2rem;
+    text-align: center;
+    
+    @media (min-width: 57.625rem) {
+        margin-block: 3rem;
+    }
+}
