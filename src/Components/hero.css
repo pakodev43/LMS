@@ -31,6 +31,8 @@
 
 .main-btn-div {
     margin-block-start: 3rem;
+    display: inline-block;
+    margin-right: 2rem;
 }
 
 .main-btn {

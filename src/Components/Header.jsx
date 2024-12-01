@@ -16,6 +16,10 @@ const Header = () => {
                 <ul>
                     <li><a href="#" className="top-nav-link">Home</a></li>
                     <li><a href="#" className="top-nav-link">Courses</a></li>
+                    <li><a href="#" className="top-nav-link">Library</a></li>
+                    <li><a href="#" className="top-nav-link">Vision</a></li>
+                    <li><a href="#" className="top-nav-link">Contacts</a></li>
+                    <li><a href="#" className="top-nav-link">About</a></li>
                     <li><a href="#" className="top-nav-link">Log In</a></li>
                     <li><a href="#" className="top-nav-link">Sign Up</a></li>
                 </ul>

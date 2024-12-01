@@ -1,8 +1,31 @@
 .footer {
-    margin-block: 2rem;
+    margin-block: 3.5rem 1.5rem;
     text-align: center;
     
     @media (min-width: 57.625rem) {
-        margin-block: 3rem;
+        margin-block: 5rem 2rem;
     }
+}
+
+.footer-nav {
+    margin-block: 1.5rem;
+
+    @media (min-width: 57.625rem) {
+        /* margin-block: 3rem; */
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.footer-nav ul {
+    @media (min-width: 57.625rem) {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-inline: auto;
+    }
+}
+
+.footer-nav ul li {
+    margin-block: .3rem;
 }
