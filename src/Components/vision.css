@@ -1,0 +1,20 @@
+.vision {
+    margin-block: 3.5rem;
+    
+    @media (min-width: 57.625rem) {
+        margin-block: 10rem;
+        padding-inline: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+    }
+}
+
+.h2 {
+    font-size: var(--font-size-h2);
+    margin-block-end: 1rem;
+    
+    @media (min-width: 57.625rem) {
+        margin-block-end: unset;
+    }
+}

@@ -14,7 +14,8 @@ X (twitter):  https://x.com/dev_pakodev
     Large view:   (min-width: 61rem)
 */
 
-/* 'Syne' font from Google Fonts */
+/* 'Poppins' and 'Syne' fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 
 
@@ -26,18 +27,23 @@ X (twitter):  https://x.com/dev_pakodev
   --clr-accent: hsl(240, 22%, 93%);
   --clr-primary: hsl(0, 0%, 7%);
   --clr-secondary: hsl(0, 0%, 9%);
+  --clr-tertiary: hsl(237, 100%, 70%);
+  --clr-white: rgb(0, 0, 0);
+  --clr-black: rgb(255, 255, 255);
 
-  --clr-accent: hsl(240, 22%, 12%);
+  /* --clr-accent: hsl(240, 22%, 12%);
   --clr-primary: hsl(0, 0%, 97%);
   --clr-secondary: hsl(0, 0%, 91%);
   --clr-tertiary: hsl(237, 100%, 70%);
 
   --clr-white: rgb(255, 255, 255);
-  --clr-black: rgb(0, 0, 0);
+  --clr-black: rgb(0, 0, 0); */
 
 
   /* Fonts */
-  --f-primary: "Syne", sans-serif;
+  --f-primary: "Poppins", sans-serif;
+  /* weights All */
+  --f-secondary: "Syne", sans-serif;
   /* weights 400 - 900 */
   /* --f-secondary: sans-serif; */
 
